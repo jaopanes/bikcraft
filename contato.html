@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+  <title>Bikcraft - Sobre</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Compre sua bicicleta personalizada na Bikcraft. Possuimos varios modelos para opção de escolha.">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bikcraft - Bicicletas Personalizadas" />
+  <meta property="og:description"
+    content="Compre sua bicicleta personalizada na Bikcraft. Possuimos varios modelos para opção de escolha." />
+  <meta property="og:url" content="https://bikcraft.com" />
+  <meta property="og:image" content="https://bikcraft.com/img/og-image.png" />
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/bikcraft.svg" alt="Bikcraft">
+      </a>
+
+      <nav class="header-menu grid-12">
+        <ul>
+          <li>
+            <a href="sobre.html">Sobre</a>
+          </li>
+
+          <li>
+            <a href="produtos.html">Produtos</a>
+          </li>
+
+          <li>
+            <a href="portfolio.html">Portfólio</a>
+          </li>
+
+          <li class="ativo">
+            <a href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="introducao-interna interna-contato">
+    <div class="container">
+      <h1 data-anime="400" class="fadeInDown">CONTATO</h1>
+
+      <p data-anime="800" class="fadeInDown">tire suas dúvidas com a gentee</p>
+    </div>
+  </section>
+
+  <section data-anime="1200" class="fadeInDown contato container">
+    <form id="form-contato" method="POST" action="./enviar.php" class="form-contato grid-8 formphp">
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="telefone">Telefone</label>
+      <input type="text" name="telefone" id="telefone">
+
+      <label for="mensagem">Especificações</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <!-- spam verify -->
+      <label class="nao-aparece">Se você não é um robô, deixa em branco.</label>
+      <input type="text" class="nao-aparece" name="leaveblank">
+      <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+      <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+      <button id="enviar" name="enviar" class="btn btn-preto" type="submit">Enviar</button>
+    </form>
+
+    <div class="contato-dados grid-8">
+      <h3>Dados</h3>
+      <span>+55 21 92828-8822</span>
+      <span>orcamento@bikcraft.com</span>
+      <span>Rua Ali Perto - Botafogo</span>
+      <span>Rio de Janeiro - RJ - Brasil</span>
+
+      <h3>Redes</h3>
+
+      <ul>
+        <li><a href="https://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg"></a>
+        </li>
+        <li><a href="https://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg"></a>
+        </li>
+        <li><a href="https://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg"></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section data-anime="1600" class="fadeInDown container contato-mapa">
+    <a class="grid-16" href="https://google.com" target="_blank">
+      <img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft">
+    </a>
+  </section>
+
+  <div class="quebra">
+    <blockquote class="quote-externo container">
+      <p>"o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida
+        cotidiana."</p>
+      <cite>WILLIAM MORRIS</cite>
+    </blockquote>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-8 footer-historia">
+          <h3>Nossa história</h3>
+          <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida
+            cotidiana cotidiana. interesse por detalhes da vida cotidiana cotidiana.</p>
+        </div>
+
+        <div class="grid-4 footer-contato">
+          <h3>Contato</h3>
+
+          <ul>
+            <li>- 21 2332-4343</li>
+            <li>- contato@bikcraft.com</li>
+            <li>- Botafogo - RJ</li>
+          </ul>
+        </div>
+
+        <div class="grid-4 footer-redes">
+          <h3>REDES SOCIAIS</h3>
+
+          <ul>
+            <li>
+              <a href="https://facebook.com" target="_blank">
+                <img alt="Facebook Bikcraft" src="img/redes-sociais/facebook.svg">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://instagram.com" target="_blank">
+                <img alt="Instagram Bikcraft" src="img/redes-sociais/instagram.svg">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com" target="_blank">
+                <img alt="Twitter Bikcraft" src="img/redes-sociais/twitter.svg">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">Bikcraft 2020 - Todos os direitos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-form.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
